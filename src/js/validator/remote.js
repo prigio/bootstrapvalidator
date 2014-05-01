@@ -24,7 +24,7 @@
         validate: function(validator, $field, options) {
             var value = $field.val();
             if (value == '') {
-                return true;
+                return false;
             }
 
             var name = $field.attr('data-bv-field'), data = options.data;
